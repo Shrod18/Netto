@@ -1,0 +1,44 @@
+.tableau-container {
+    height: 100%;
+}
+
+table {
+    /* width: 800px; */
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+th {
+    text-align: left;
+    background-color: #89a3d9;
+}
+
+tr:hover {
+
+    background-color: #ffffff4d;
+}
+
+
+
+td {
+    position: relative;
+}
+
+
+td:hover>td:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+}

@@ -1,0 +1,25 @@
+aside {
+    border: 3px solid black;
+    border-radius: 7px;
+    margin: 0 0 5px 5px;
+}
+
+aside ul {
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+aside ul li {
+    list-style: none;
+}
+
+a,
+a:visited,
+a:-webkit-any-link {
+    text-decoration: none;
+    color: white;
+}
